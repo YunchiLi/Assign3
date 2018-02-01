@@ -20,13 +20,11 @@ TEST.SH
 Please create pointless.sh, changing from printing your hostname with $HOSTNAME, to your $USER
 
 `
-#!/bin/bash
-echo $VARIABLE
-VARIABLE=5
-echo $USER
-echo $VARIABLE
-VARIABLE=6
-echo $VARIABLE
+[yunchili@trgn510 ~]$ ./pointless.sh
+
+yunchili
+5
+6
 `
 
 ### 2
