@@ -23,12 +23,15 @@ Please create pointless.sh, changing from printing your hostname with $HOSTNAME,
 [yunchili@trgn510 ~]$ ./pointless.sh
 
 yunchili
+
 5
+
 6
 `
 
 ### 2
 Please create quotequotes.sh, please add 1 additional lines that prints the process id of the current script using a special variable in a sentence: "The process id for this script is **235**'
+
 `
 [yunchili@trgn510 bin]$ ./quotequotes.sh
 trgn510.pmed.io
