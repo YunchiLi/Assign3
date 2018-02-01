@@ -23,9 +23,7 @@ Please create pointless.sh, changing from printing your hostname with $HOSTNAME,
 [yunchili@trgn510 ~]$ ./pointless.sh
 
 yunchili
-
 5
-
 6
 `
 
