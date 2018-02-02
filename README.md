@@ -42,7 +42,10 @@ The process id for this script is 23836
 ### 3
 Please create processes.sh.  Modify it such that it prints the top 5 CPU consuming processes
 
-*REPLACE WITH RESULTS*
+`
+[yunchili@trgn510 Assign3]$ ./processes.sh
+yunchili 10052 0.0 0.0 107912 628 pts/0 S+ 23:01 0:00 head -n 5 yunchili 10051 0.0 0.0 112632 728 pts/0 S+ 23:01 0:00 grep yunchili yunchili 10050 0.0 0.0 118472 836 pts/0 S+ 23:01 0:00 sort -nrk 3,3 yunchili 10049 0.0 0.0 151036 1736 pts/0 R+ 23:01 0:00 ps aux yunchili 10048 0.0 0.0 113128 564 pts/0 S+ 23:01 0:00 /bin/bash ./processes.sh
+`
 
 ### 4
 Please create makeupper.sh.  Modify it to return lower case results, and change the name to makelower.sh
