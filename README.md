@@ -61,7 +61,12 @@ root         5     2  0 jan19 ?        00:00:00 [kworker/0:0h]
 
 ### 5
 Referring to math.sh, create a script called add.sh that takes two inputs and adds them, **add.sh 5 3** would print 8
-*REPLACE WITH RESULTS FOR add.sh 9 9*
+
+`
+[yunchili@trgn510 Assign3]$ ./add.sh
+18
+18
+`
 
 ### 6
 Create a program "mb_or_kb.sh", referring to bigornot.sh and useful.sh, create a script called big file that checks to see if the file exists provided as the first argument exists, and if it exists then gets the filesize, storing it as a variable. I have not provided you with a way to get filesize in exercise, and expect you to search web for a way.  The program then checks to see if the size is greater than 1,000,000.  If its less then 1,000,000, it prints the number of kilobytes (divide by 1000) followed by "kB".  If its greater than 1,000,000, then print the number of megabytes followed by "MB".
