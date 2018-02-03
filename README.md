@@ -50,7 +50,14 @@ yunchili 10052 0.0 0.0 107912 628 pts/0 S+ 23:01 0:00 head -n 5 yunchili 10051 0
 ### 4
 Please create makeupper.sh.  Modify it to return lower case results, and change the name to makelower.sh
 
-*REPLACE WITH RESULTS for ps -ef | makeupper.sh*
+`
+[yunchili@trgn510 Assign3]$ ps -ef | head -5 | ./makelower.sh
+uid        pid  ppid  c stime tty          time cmd
+root         1     0  0 jan19 ?        00:02:59 /usr/lib/systemd/systemd --switched-root --system --deserialize 19
+root         2     0  0 jan19 ?        00:00:00 [kthreadd]
+root         3     2  0 jan19 ?        00:00:00 [ksoftirqd/0]
+root         5     2  0 jan19 ?        00:00:00 [kworker/0:0h]
+`
 
 ### 5
 Referring to math.sh, create a script called add.sh that takes two inputs and adds them, **add.sh 5 3** would print 8
